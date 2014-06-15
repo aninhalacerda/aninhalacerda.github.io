@@ -81,135 +81,8 @@ footer > div > ul {
   text-align: center;
 }
 
-
 .content {
   padding: 105px 150px;
-}
-
-.grid_2_y {
-  display: inline-block;
-}
-
-.grid_2_y ul {
-  right: 0;
-  top: 0%;
-  margin: 0;
-  width: 588px;
-}
-
-.grid_2_y li {
-  display: inline-block;
-  padding: 84px 0px;
-}
-.grid_2_y li > a {
-  padding: 75px 81px;
-  width: 130px;
-}
-
-.grid_2_y > ul > li:first-child {
-  background-color: #781237;
-}
-
-.grid_2_y > ul > li:last-child {
-  background: url('../public/images/github_icon_green.png') no-repeat;
-  background-size: 192px 192px;
-}
-
-/*.grid_2_y > ul > li:last-child > a:after {
-  position: absolute;
-  content: '';
-  opacity: 0.5;
-  width: 830px;
-  height: 165px;
-  right: 0;
-  bottom: 0;
-  background: url('../public/images/github.gif') no-repeat;
-  background-size: 292px 174px;
-}*/
-
-.unique-block > ul > li {
-  padding: 35px 0px;
-  background: #5c9e70;
-  margin: 2px 0px;
-}
-
-.unique-block ul {
-  width: 588px;
-}
-
-/* Columns and Unique block */
-
-.right_column {
-  width: 40%;
-  float: right;
-}
-
-.left_column {
-  width: 60%;
-  float: left;
-}
-
-.unique_block {
-  height: 260px;
-  background-color: #ffa575;
-  padding-top: 140px;
-  margin: 1px;
-  transition: background-color .2s;
-}
-
-.unique_block:hover {
-  background-color: #FFC2A1;
-}
-
-.unique_block > a {
-  font-size: 38px;
-  color: #000;
-}
-
-.unique_block > a:hover {
-  font-weight: bold;
-}
-
-/* Current and Past Events */
-
-.active_event {
-  height: 80px;
-  background-color: #d1d415;
-  padding-top: 40px;
-  margin: 1px;
-  transition: background-color .2s;
-}
-
-.active_event:hover {
-  background-color: #E2E488;
-}
-
-.event {
-  height: 40px;
-  background-color: #C2C2C1;
-  padding-top: 15px;
-  margin: 1px;
-  transition: background-color .2s;
-}
-
-.event:hover {
-  background-color: #dbd4ce;
-}
-
-.event > a {
-  color: #000000;
-}
-
-.event > a:hover {
-  font-weight: bold;
-}
-
-.active_event > a {
-  color: #000000;
-}
-
-.active_event > a:hover {
-  font-weight: bold;
 }
 
 /* Utilities */
@@ -218,16 +91,6 @@ footer > div > ul {
   content: "";
   clear: both;
   display: table;
-}
-
-.wrap:before,
-.wrap:after { content:""; display:table; }
-.wrap:after { clear: both; }
-.wrap {
-  max-width: 800px;
-  padding: 0 30px;
-  margin: 0 auto;
-  zoom: 1;
 }
 
 .github-icon-svg {
