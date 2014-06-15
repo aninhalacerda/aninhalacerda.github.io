@@ -1,0 +1,238 @@
+body {
+  margin: 0;
+  font-family: 'Exo 2', Arial, sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+  color: #333;
+}
+
+h2 {
+  color: #113F41;
+  padding-left: 20px;
+  font-size: 28px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  text-align: center;
+}
+
+a {
+  color: #6b6973;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Header style */
+
+header {
+  border-bottom: solid 1px #DDDDE6;
+}
+
+header > div:last-child {
+  margin-left: 225px;
+}
+
+header h3 {
+  font-size: 30px;
+  font-weight: 100;
+  margin: 0px 25px;
+  font-family: 'Waiting for the Sunrise', cursive;
+}
+
+header nav {
+  text-align: center;
+  padding: 5px 0px;
+}
+
+header ul > li , header div{
+  display: inline-block;
+}
+
+header nav a {
+  font-size: 16px;
+  padding: 0px 15px;
+  transition: all .3s;
+  position: relative;
+}
+
+header nav a:hover {
+  top: -3px;
+  color: #c45860;
+}
+
+/*Footer style*/
+
+footer {
+  border-top: solid 1px #DDDDE6;
+}
+
+footer ul > li {
+  display: inline-block;
+  margin: 7px 7px;
+}
+
+footer > div > ul {
+  text-align: center;
+}
+
+
+.content {
+  padding: 105px 150px;
+}
+
+.grid_2_y {
+  display: inline-block;
+}
+
+.grid_2_y ul {
+  right: 0;
+  top: 0%;
+  margin: 0;
+  width: 588px;
+}
+
+.grid_2_y li {
+  display: inline-block;
+  padding: 84px 0px;
+}
+.grid_2_y li > a {
+  padding: 75px 81px;
+  width: 130px;
+}
+
+.grid_2_y > ul > li:first-child {
+  background-color: #781237;
+}
+
+.grid_2_y > ul > li:last-child {
+  background: url('../public/images/github_icon_green.png') no-repeat;
+  background-size: 192px 192px;
+}
+
+/*.grid_2_y > ul > li:last-child > a:after {
+  position: absolute;
+  content: '';
+  opacity: 0.5;
+  width: 830px;
+  height: 165px;
+  right: 0;
+  bottom: 0;
+  background: url('../public/images/github.gif') no-repeat;
+  background-size: 292px 174px;
+}*/
+
+.unique-block > ul > li {
+  padding: 35px 0px;
+  background: #5c9e70;
+  margin: 2px 0px;
+}
+
+.unique-block ul {
+  width: 588px;
+}
+
+/* Columns and Unique block */
+
+.right_column {
+  width: 40%;
+  float: right;
+}
+
+.left_column {
+  width: 60%;
+  float: left;
+}
+
+.unique_block {
+  height: 260px;
+  background-color: #ffa575;
+  padding-top: 140px;
+  margin: 1px;
+  transition: background-color .2s;
+}
+
+.unique_block:hover {
+  background-color: #FFC2A1;
+}
+
+.unique_block > a {
+  font-size: 38px;
+  color: #000;
+}
+
+.unique_block > a:hover {
+  font-weight: bold;
+}
+
+/* Current and Past Events */
+
+.active_event {
+  height: 80px;
+  background-color: #d1d415;
+  padding-top: 40px;
+  margin: 1px;
+  transition: background-color .2s;
+}
+
+.active_event:hover {
+  background-color: #E2E488;
+}
+
+.event {
+  height: 40px;
+  background-color: #C2C2C1;
+  padding-top: 15px;
+  margin: 1px;
+  transition: background-color .2s;
+}
+
+.event:hover {
+  background-color: #dbd4ce;
+}
+
+.event > a {
+  color: #000000;
+}
+
+.event > a:hover {
+  font-weight: bold;
+}
+
+.active_event > a {
+  color: #000000;
+}
+
+.active_event > a:hover {
+  font-weight: bold;
+}
+
+/* Utilities */
+
+.clear {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.wrap:before,
+.wrap:after { content:""; display:table; }
+.wrap:after { clear: both; }
+.wrap {
+  max-width: 800px;
+  padding: 0 30px;
+  margin: 0 auto;
+  zoom: 1;
+}
+
+.github-icon-svg {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  position: relative;
+}
