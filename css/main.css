@@ -34,7 +34,7 @@ header > div:last-child {
 }
 
 header h3 {
-  font-size: 30px;
+  font-size: 34px;
   font-weight: 100;
   margin: 0px 25px;
   font-family: 'Waiting for the Sunrise', cursive;
@@ -42,7 +42,6 @@ header h3 {
 
 header nav {
   text-align: center;
-  padding: 5px 0px;
 }
 
 header ul > li , header div{
@@ -54,6 +53,16 @@ header nav a {
   padding: 0px 15px;
   transition: all .3s;
   position: relative;
+}
+
+.selected {
+  font-weight: 500;
+  color: firebrick;
+}
+
+.selected:hover {
+  color: firebrick;
+  top: initial;
 }
 
 header nav a:hover {
@@ -76,12 +85,14 @@ footer > div > ul {
   text-align: center;
 }
 
+/*Content style*/
+
 .content {
-  padding: 105px 150px;
+  position: relative;
   text-align: justify;
   font-size: 16px;
   height: 220px;
-  background-color: #F5EFE7;
+  background-color: #FFF2EF;
 }
 
 .content div:first_child {
@@ -100,7 +111,38 @@ footer > div > ul {
   height: 145px;
   width: 230px;
   float: left;
-  padding: 23px;
+  padding: 35px;
+}
+
+.center {
+  padding: 105px 150px;
+}
+
+.resume {
+  padding: 30px 45px;
+  height: 670px;
+}
+
+.resume h5 {
+  margin: 5px 0px;
+  font-size: medium;
+  display: inline-block;
+  font-weight: 400;
+}
+
+.resume h6 {
+  display: inline-block;
+  font-weight: normal;
+  color: #BD9595;
+  padding: 0px 10px;
+}
+
+.tech {
+  font-weight: normal;
+  font-size: 12px;
+  color: #DD8D8D;
+  padding-top: 5px;
+  display: block;
 }
 
 /* Utilities */
