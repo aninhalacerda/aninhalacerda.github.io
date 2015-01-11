@@ -35,7 +35,7 @@ function dist {
       --depth=1 $REMOTE_ORIGIN \
       $DIST_DIR
   fi
-  time bundle exec jekyll build
+  time bundle exec LC_ALL="en_US.UTF-8" jekyll build
 }
 
 function deploy {
