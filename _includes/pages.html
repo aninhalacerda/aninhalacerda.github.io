@@ -1,0 +1,16 @@
+<section class="paging">
+  {% if page.previous %}
+    <div>
+      <a style="padding: 0 10px; zoom: 2;" href="{{ page.previous.url }}">
+        ‹
+      </a>
+    </div>
+  {% endif %}
+  {% if page.next %}
+    <div>
+      <a style="padding: 0 10px; zoom: 2;" href="{{page.next.url}}">
+        ›
+      </a>
+    </div>
+  {% endif %}
+</section>

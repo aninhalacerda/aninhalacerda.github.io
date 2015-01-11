@@ -1,0 +1,6 @@
+<div class="block">
+  {% for link in site.links %}
+  <a target="{% if link.external %}_blank{% else %}_top{% endif %}" class="main" href="{{ link.url }}"><img src="/images/{{link.image}}">{{link.name}}</a>
+  <span class="mega-octicon octicon-mark-github"></span>
+  {% endfor %}
+</div>
