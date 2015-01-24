@@ -2,7 +2,7 @@ title:
 description:      
 url:              # Site url.
 signoff:          Aninha Lacerda
-disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
+disqus_shortname: aninhalacerda
 facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
 google_analytics: UA-52272080-3
 
