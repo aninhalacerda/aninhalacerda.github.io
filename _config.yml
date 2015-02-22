@@ -10,9 +10,9 @@ links:
   - name:         About
     url:          /about
     image:        yoga_red.png
-  - name:         Blog
-    url:          /blog
-    image:        blog_red.png
+  #- name:         Blog
+    #url:          /blog
+    #image:        blog_red.png
   - name:         Email
     url:          mailto:anaclara.lacerdas@gmail.com
     image:        mail_red.png
