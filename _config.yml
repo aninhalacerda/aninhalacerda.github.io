@@ -10,6 +10,9 @@ links:
   - name:         About
     url:          /about
     image:        yoga_red.png
+  - name:         Talks
+    url:          /talks
+    image:        talk_red.png
   #- name:         Blog
     #url:          /blog
     #image:        blog_red.png
