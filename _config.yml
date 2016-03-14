@@ -16,10 +16,10 @@ links:
   #- name:         Blog
     #url:          /blog
     #image:        blog_red.png
-  - name:         Email
-    url:          mailto:anaclara.lacerdas@gmail.com
-    image:        mail_red.png
-    external:     true
+  #- name:         Email
+    #url:          mailto:anaclara.lacerdas@gmail.com
+    #image:        mail_red.png
+    #external:     true
 highlighter:      pygments
 permalink:        pretty
 markdown:         redcarpet
