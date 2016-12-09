@@ -20,9 +20,9 @@ links:
     #url:          mailto:anaclara.lacerdas@gmail.com
     #image:        mail_red.png
     #external:     true
-highlighter:      pygments
+highlighter:      rouge
 permalink:        pretty
-markdown:         redcarpet
-redcarpet:
-  extensions:
-    - smart
+markdown:         kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false 
