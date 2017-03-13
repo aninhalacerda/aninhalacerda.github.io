@@ -7,12 +7,12 @@ facebook_appid:   # appid for like button, remove from /_includes/share.html if 
 google_analytics: UA-52272080-3
 
 links:
-  - name:         About
-    url:          /about
-    image:        yoga_red.png
-  - name:         Talks
-    url:          /talks
-    image:        talk_red.png
+  #- name:         About
+    #url:          /about
+    #image:        yoga_red.png
+  #- name:         Talks
+    #url:          /talks
+    #image:        talk_red.png
   #- name:         Blog
     #url:          /blog
     #image:        blog_red.png
